@@ -1,7 +1,7 @@
 package com.company;
 
 public class Circle {
-    private static final double PI = 3.14 ;
+    private static  double PI = 3.14 ;
     private static double radius ;
 
     public Circle() {
@@ -17,6 +17,10 @@ public class Circle {
 
     }
 
+    public static void setPI(double PI) {
+        Circle.PI = PI;
+    }
+
     public double getPI() {
         return PI;
     }
@@ -28,4 +32,6 @@ public class Circle {
     public void setRadius(double radius) {
         this.radius = radius;
     }
+
+
 }

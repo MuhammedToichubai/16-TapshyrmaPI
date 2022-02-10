@@ -13,7 +13,8 @@ public class Main {
         System.out.println("PI = "+circle.getPI()+"\nRadius = "+circle.getRadius());
         System.out.print("Area = "+circle.getPI()+" * "+"("+circle.getRadius()+" * "+circle.getRadius()+")"+" = ");
         Circle.area();
-        System.out.print("Circumference = "+circle.getPI()+" * 2 *"+circle.getRadius()+" = ");
+        System.out.print("Circumference = "+circle.getPI()+" * 2 * "+circle.getRadius()+" = ");
         Circle.circumference();
+
     }
 }
